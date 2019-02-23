@@ -6,21 +6,14 @@
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item">
-        <a class="nav-link" routerLink="/about" routerLinkActive="active">About</a>
+      <li *ngFor="let tagline of taglines" [class.selcted]="tagline == selectTag" (click)="onSelect(tagline)" class="nav-item">
+        <a  class="nav-link"  routerLink="/{{tagline.id}}" routerLinkActive="active"> {{tagline.id}}</a>
       </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="#" routerLink="/services" routerLinkActive="active">Services</a>
-    </li>
-    <li class="nav-item active">
-        <a class="nav-link" href="#" routerLink="/blog" routerLinkActive="active">Blog</a>
-    </li>
-    <li class="nav-item active">
-        <a class="nav-link"  routerLinkActive="active">Contact</a>
-    </li>
+    
     </ul> 
   </div>
 </nav>
+<app-tagline [tagline]="selectTag"></app-tagline>
 
 <!--Contact Modal-->
 

@@ -1,38 +1,36 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { HomeComponent } from './view/home/home.component';
+import { HomeComponent } from '../app/view/home/home.component';
+import { ServicesComponent } from './view/services/services.component';
+import { AboutComponent } from './view/about/about.component';
+import { BlogComponent } from './view/blog/blog.component';
 
 const routes: Routes = [
   {
     path: 'home',
-    loadChildren:
-      './home/home.module#HomeModule'
+    component: HomeComponent
   },
   {
     path: '',
-    redirectTo: 'home',
+    redirectTo: '/home',
     pathMatch: 'full'
   },
   {
     path: 'services',
-    loadChildren:
-      './services/services.module#ServicesModule'
+    component: ServicesComponent
 
   },
   {
     path: 'order',
-    loadChildren:
-      './order/order.module#OrderModule'
+    component: HomeComponent
   },
   {
     path: 'about',
-    loadChildren:
-      './about/about.module#AboutModule'
+    component: AboutComponent
   },
   {
     path: 'blog',
-    loadChildren:
-      './blog/blog.module#BlogModule'
+    component: BlogComponent
   },
   {
     path: '',
@@ -42,7 +40,7 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes, {enableTracing:true})],
+  imports: [RouterModule.forRoot(routes, {enableTracing: true})],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

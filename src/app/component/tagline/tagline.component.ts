@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { Tagline } from 'src/app/models/tagline';
 
 @Component({
   selector: 'app-tagline',
@@ -12,15 +13,14 @@ import { Component, OnInit } from '@angular/core';
     color:rgba(255, 238, 0, 0.986);
     text-shadow: 2px 2px 6px rgb(223, 219, 219);
    background-size: cover;
-    background-color: gray;
     
 }`]
 })
-export class TaglineComponent implements OnInit {
+export class TaglineComponent {
+  @Input() tagline: Tagline;
 
   constructor() { }
 
-  ngOnInit() {
-  }
+  
 
 }

@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { TAGLINES } from './models/tagline-list';
+import { Tagline } from './models/tagline';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,10 @@ import { Component } from '@angular/core';
   styles: []
 })
 export class AppComponent {
+
   title = 'app';
+
+
+  constructor() { }
+
 }
