@@ -7,16 +7,16 @@ import { BlogComponent } from './view/blog/blog.component';
 
 const routes: Routes = [
   {
-    path: 'home',
+    path: '5280Free',
     component: HomeComponent
   },
   {
     path: '',
-    redirectTo: '/home',
+    redirectTo: '/5280Free',
     pathMatch: 'full'
   },
   {
-    path: 'services',
+    path: 'Services',
     component: ServicesComponent
 
   },
@@ -25,11 +25,11 @@ const routes: Routes = [
     component: HomeComponent
   },
   {
-    path: 'about',
+    path: 'About',
     component: AboutComponent
   },
   {
-    path: 'blog',
+    path: 'Blog',
     component: BlogComponent
   },
   {

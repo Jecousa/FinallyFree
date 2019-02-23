@@ -13,7 +13,6 @@ import { Tagline } from 'src/app/models/tagline';
     color:rgba(255, 238, 0, 0.986);
     text-shadow: 2px 2px 6px rgb(223, 219, 219);
    background-size: cover;
-    
 }`]
 })
 export class TaglineComponent {
@@ -21,6 +20,6 @@ export class TaglineComponent {
 
   constructor() { }
 
-  
+
 
 }

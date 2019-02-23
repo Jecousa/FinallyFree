@@ -3,15 +3,15 @@ import { Tagline } from './tagline';
 
 export const TAGLINES: Tagline[] = [
     {
-        id: "about", mainText: "test1", tag:"", image: "blue"
+        id: '5280Free', mainText: 'What Does the Future Look-Like?', tag: '', image: 'red'
     },
     {
-        id: "home", mainText: "test2", tag:"", image: "red"
+        id: 'About', mainText: 'Colorado-Based Technology Firm', tag: '', image: 'blue'
     },
     {
-        id: "services", mainText: "test3", tag:"", image: "green"
+        id: 'Services', mainText: 'Customized Software Solutions', tag: '', image: 'green'
     },
     {
-        id: "blog", mainText: "test4", tag:"", image: "yellow"
+        id: 'Blog', mainText: 'Tutorials, News, and Entertainment', tag: '', image: 'yellow'
     }
 ];
