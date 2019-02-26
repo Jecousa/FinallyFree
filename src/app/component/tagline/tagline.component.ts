@@ -1,5 +1,6 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { Tagline } from 'src/app/models/tagline';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-tagline',
@@ -15,11 +16,16 @@ import { Tagline } from 'src/app/models/tagline';
    background-size: cover;
 }`]
 })
-export class TaglineComponent {
+export class TaglineComponent implements OnInit{
+  public currentURL: string = "";
   @Input() tagline: Tagline;
 
-  constructor() { }
+  constructor(private router: Router) { }
 
-
+  ngOnInit(){
+    this.tagline;
+    this. currentURL = this.router.url;
+    console.log(this.currentURL);
+  }
 
 }
