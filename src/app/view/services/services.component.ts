@@ -6,7 +6,12 @@ import { Service } from 'src/app/models/service';
 @Component({
   selector: 'app-services',
   templateUrl: './services.component.html',
-  styles: []
+  styles: [`
+  #serviceNav>.btn{
+    padding: 2rem;
+    margin: 1rem 1rem 0 0rem;
+    font-size:2rem;
+  }`]
 })
 export class ServicesComponent {
 

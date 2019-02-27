@@ -5,8 +5,8 @@
 <div class="container-fluid" id="servicesHeadline">
   <h2 class="text-center" >Learn About Our Services</h2>
   <div class="row justify-content-center" id="serviceNav">
-      <button class="col-md-4 btn btn-primary" *ngFor="let service of services" [class.selected]="service === selectedService"
-        (click)="onSelect(service)">{{service.name}}</button>
+      <button class="col-md-3 btn btn-primary" *ngFor="let service of services" [class.selected]="service === selectedService"
+        (click)="onSelect(service)" >{{service.name}}</button>
     </div>
   <div class="service-offerings" id="serviceDetail">
     <app-services-detail [service]="selectedService"></app-services-detail>

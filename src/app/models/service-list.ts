@@ -3,7 +3,8 @@ import { Service } from "./service";
 export const SERVICES: Service[] = [
 
     // tslint:disable-next-line:quotemark
-    { id: 1, image: "../../../assets/webImg.jpg",
+    { id: 1,
+      // image: "../../../assets/webImg.jpg",
      // tslint:disable-next-line:max-line-length
      name: 'Mobile-Web Services', description: 'Engage customers, viewers, and clients with mobile-web applications, on any device from websites to blogs.',
       // tslint:disable-next-line:quotemark
@@ -14,7 +15,8 @@ export const SERVICES: Service[] = [
       techpic1:'fab fa-angular', techpic2:'fas fa-atom-alt', techpic3:'fab fa-wordpress'},
     
       // tslint:disable-next-line:quotemark
-      { id: 2, image: "../../../assets/swImg.jpeg", 
+      { id: 2, 
+        //image: "../../../assets/swImg.jpeg", 
     name: 'Enterprise Apps', description: 'Full-stack applications, we specialize in creating adaptable productivity tools and automation scripts. ', 
     button:"apps", 
     // tslint:disable-next-line:quotemark
@@ -24,7 +26,8 @@ export const SERVICES: Service[] = [
     tech1:'Python', tech2:'Java',tech3:'Android',
     techpic1:'fab fa-python', techpic2:'fab fa-java', techpic3:'fab fa-android'},
     
-    { id: 3, image:"../../../assets/devopsImg.jpg", 
+    { id: 3, 
+      //image:"../../../assets/devopsImg.jpg", 
     name: 'DevOps Automation',
      // tslint:disable-next-line:max-line-length
      description: 'Automate your software production process with cutting edge, cloud-based technologies.  Do more faster, smarter, and better.', 

@@ -11,6 +11,8 @@ import { FooterComponent } from './component/footer/footer.component';
 import { HomeComponent } from './view/home/home.component';
 import { TaglineComponent } from './component/tagline/tagline.component';
 import { ServicesDetailComponent } from './component/services/services.component';
+import { OrderMainComponent } from './component/order/order-main/order-main.component';
+import { OrderModule } from './component/order/order.module';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,8 @@ import { ServicesDetailComponent } from './component/services/services.component
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    OrderModule
   ],
   providers: [],
   bootstrap: [AppComponent]

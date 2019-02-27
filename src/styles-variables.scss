@@ -13,13 +13,24 @@ p{
   color:#555555;
   font-family: 'Roboto Slab', serif;
 }
-a{ 
-  color:	#999999;
+a,
+a:active,
+a:visited,
+a:focus,
+a:hover{ 
+  color: #eeeeee;
+  text-decoration: none;
 }
 i{
-  color: 	#999999;
+  color:	#999999;
 }
-.btn{
+.btn,
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus{
  color: #eeeeee;
  background: #6e7a73;
+ border-color: #6e7a73;
 }

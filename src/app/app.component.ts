@@ -6,7 +6,7 @@ import { Component, Input } from '@angular/core';
   templateUrl: './app.component.html',
   styles: [`
 
-  .container{
+  .app{
     padding: 3rem 1rem 7rem 1rem;
     background-color: 	#eeeeee;
   }

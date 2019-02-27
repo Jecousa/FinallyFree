@@ -4,6 +4,7 @@ import { HomeComponent } from '../app/view/home/home.component';
 import { ServicesComponent } from './view/services/services.component';
 import { AboutComponent } from './view/about/about.component';
 import { BlogComponent } from './view/blog/blog.component';
+import { OrderMainComponent } from './component/order/order-main/order-main.component';
 
 const routes: Routes = [
   {
@@ -22,7 +23,7 @@ const routes: Routes = [
   },
   {
     path: 'order',
-    component: HomeComponent
+    component: OrderMainComponent
   },
   {
     path: 'About',
