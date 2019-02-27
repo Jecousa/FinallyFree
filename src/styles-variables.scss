@@ -5,3 +5,21 @@ $grid-breakpoints: (
   lg: 992px,
   xl: 1200px
 );
+h1, h2, h3, h4, h5, h6{
+  color:#333333;
+  font-family: 'Raleway', sans-serif;
+}
+p{
+  color:#555555;
+  font-family: 'Roboto Slab', serif;
+}
+a{ 
+  color:	#999999;
+}
+i{
+  color: 	#999999;
+}
+.btn{
+ color: #eeeeee;
+ background: #6e7a73;
+}

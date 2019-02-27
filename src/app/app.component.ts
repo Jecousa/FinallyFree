@@ -1,11 +1,17 @@
 import { Component, Input } from '@angular/core';
-import { TAGLINES } from './models/tagline-list';
-import { Tagline } from './models/tagline';
+
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styles: []
+  styles: [`
+
+  .container{
+    padding: 3rem 1rem 7rem 1rem;
+    background-color: 	#eeeeee;
+  }
+  
+  `]
 })
 export class AppComponent {
 

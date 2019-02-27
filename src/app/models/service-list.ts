@@ -15,7 +15,7 @@ export const SERVICES: Service[] = [
     
       // tslint:disable-next-line:quotemark
       { id: 2, image: "../../../assets/swImg.jpeg", 
-    name: 'Enterprise Applications', description: 'Full-stack applications, we specialize in creating adaptable productivity tools and automation scripts. ', 
+    name: 'Enterprise Apps', description: 'Full-stack applications, we specialize in creating adaptable productivity tools and automation scripts. ', 
     button:"apps", 
     // tslint:disable-next-line:quotemark
     buttonText:"More About Apps",

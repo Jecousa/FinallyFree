@@ -1,31 +1,28 @@
-<div class="col-md " *ngIf="service; else test">
-  <div class="row justify-content-center">
-
-      <h2 style="font-size: 4.5rem;">{{service.name}}</h2>
+<div *ngIf="service; else test" id="serviceDetailBody">
+  <div class="row justify-content-center" id="serviceDetailTitle">
+      <h2 >{{service.name}}</h2>
   </div>
-  <div class="row justify-content-center" style="margin-bottom:2rem;">
-      <div class="col-lg-4">
+  <div class="row justify-content-center" id="serviceDetailMain">
+      <div class="col-lg-4" id="serviceDetailImage">
           <img src={{service.image}} alt="" class="serviceImage">
       </div>
-      <div class="col-lg-6">
-          <p style="font-size: 2rem" class="serviceDescription">{{service.description}}</p>
+      <div class="col-lg-6" id="serviceDetailDescription"> 
+          <p class="serviceDescription">{{service.description}}</p>
       </div>
   </div>
   <br>
   <hr>
-  <div class="row justify-content-center">
-      <div class="col-md-8">
-          <h3 class="text-center" style="padding-bottom:2rem;">
+  <div class="row justify-content-center" id="serviceDetailMore">
+      <div class="col-md-10" id="serviceDetailUser">
+          <h3 class="text-center">
               Who Uses These Services?
           </h3>
       </div>
   </div>
-  <div class="row justify-content-center">
-      <div class="col-lg">
+  <div class="row justify-content-center" id="serviceDetailUserList">
           <ul>
               <li>
-
-                  <div class="row">
+                  <div class="row" id="serviceDetailUser1">
                       <div class="col-lg service">{{service.user1}}</div>
                       <div class="col-lg user">{{service.detail1}}</div>
                   </div>
@@ -33,42 +30,41 @@
 
               <li>
 
-                  <div class="row" style="background:lightgray;">
+                  <div class="row" id="serviceDetailUser2">
                       <div class="col-lg service">{{service.user2}}</div>
                       <div class="col-lg user">{{service.detail2}}</div>
                   </div>
               </li>
               <li>
-                  <div class="row">
+                  <div class="row" id="serviceDetailUser3">
                       <div class="col-lg service">{{service.user3}}</div>
                       <div class="col-lg user">{{service.detail3}}</div>
                   </div>
               </li>
           </ul>
-      </div>
   </div>
   <br>
   <hr>
   <br>
-  <h3 class="text-center" style="font-size:2.5rem;">Technologies Used</h3>
+  <h3 class="text-center">Technologies Used</h3>
   <br>
-  <div class="row justify-content-center">
-          <div class="col-sm-3 techs">
+  <div class="row justify-content-center" id="serviceDetailTechMain">
+          <div class="col-3 techs" id="serviceDetailTech1">
               <div class="col-sm techName">{{service.tech1}}</div>
               <div class="col-sm techImg"><i class={{service.techpic1}}></i></div>
           </div>
-          <div class="col-sm-3 techs">
+          <div class="col-3 techs" id="serviceDetailTech2">
               <div class="col-sm techName">{{service.tech2}}</div>
               <div class="col-sm techImg"><i class={{service.techpic2}}></i></div>
           </div>
-          <div class="col-sm-3 techs">
+          <div class="col-3 techs" id="serviceDetailTech3">
               <div class="col-sm techName">{{service.tech3}}</div>
               <div class="col-sm techImg"><i class={{service.techpic3}}></i></div>
           </div>
 
   </div>
-  <div class="row justify-content-center" style="margin-top:1rem; padding:5rem; font-size: 1.8rem;">
-      <button routerLink="/order">Free Estimate with 30 Minute Consulatation</button>
+  <div class="row justify-content-center" id="serviceDetailOrder">
+      <button class="btn btn-primary "routerLink="/order">Free Estimate with 30 Minute Consulatation</button>
   </div>
 </div>
 
@@ -76,7 +72,7 @@
 <!--Default Value-->
 <ng-template #test>
   <div class="row justify-content-center">
-      <h2 class="" style="font-size: 3.5rem;">Select one of the Services Below to Learn More</h2>
+      <h2 class="" >Select one of the Services Below to Learn More</h2>
   </div>
 </ng-template>
 
