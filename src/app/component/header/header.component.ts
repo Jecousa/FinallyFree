@@ -6,7 +6,12 @@ import { TAGLINES } from 'src/app/models/tagline-list';
   selector: 'app-header',
   templateUrl: './header.component.html',
   styles: [`
-
+  .dropdown-item{
+    color: white;
+  }
+  .dropdown-menu>i{
+    margin: 0 0 0 1rem;;
+  }
 `]
 })
 export class HeaderComponent  {

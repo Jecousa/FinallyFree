@@ -24,9 +24,10 @@ import { Service } from 'src/app/models/service';
       font-style: italic;
     }
     #serviceDetailOrder>.btn{
-      margin: 2rem 0 0 0;
+      margin: 3rem 0 2rem 0;
       padding: 1rem;
       font-size: 1.5rem;
+      background-color: #9eb5b3;
     }
     .techName{
       font-weight:bold;

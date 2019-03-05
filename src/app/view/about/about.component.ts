@@ -4,6 +4,9 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-about',
   templateUrl: './about.component.html',
   styles: [`
+    #aboutBody2{
+      margin: 3rem 0 0 0;
+    }
     .card{
       background-color:#cedad9;
     }
@@ -19,9 +22,7 @@ import { Component, OnInit } from '@angular/core';
       font-size 1rem;
       width: 100%;
     }
-    .photo{
-      padding: 3rem 0 0 0;
-    }
+  
     #aboutPortfolio{
       margin: 3rem 0 0 0;
     }
@@ -35,6 +36,12 @@ import { Component, OnInit } from '@angular/core';
     }
     i{
       font-size: 3rem;
+    }
+    .fa-github{
+      padding-right: 1rem;
+    }
+    .fa-codepen{
+      padding-right: 1rem;
     }
     `]
 })
