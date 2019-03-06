@@ -1,11 +1,11 @@
-<div class="heading text-center col-lg " *ngIf="tagline; else defaultHeader" [style.background-color]="tagline.image">
+<div class="heading text-center col-lg " *ngIf="tagline; else defaultHeader" [style.background]="'url('+ tagline.image +')'">
     <h1 class="align-middle" >{{tagline.mainText}}</h1>
     <br>
     <H4>{{tagline.tag}}</H4>
 </div>
 
 <ng-template #defaultHeader>
-    <div class="heading text-center col-lg " style="background-color: orange;">
+    <div class="heading text-center col-lg ">
         <h1 class="align-middle" >Default</h1>
     </div>
 </ng-template>

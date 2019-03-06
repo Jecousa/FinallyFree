@@ -5,7 +5,8 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './about.component.html',
   styles: [`
     #aboutBody2{
-      margin: 3rem 0 0 0;
+      background-color:#dddddd;
+      padding:2rem;
     }
     .card{
       background-color:#cedad9;
@@ -42,6 +43,23 @@ import { Component, OnInit } from '@angular/core';
     }
     .fa-codepen{
       padding-right: 1rem;
+    }
+    #aboutDetail2{
+      padding: 3rem 0 0 0;
+    }
+    @media only screen and (max-width: 5\800px){
+      #ctaBtn{
+        padding: .75;
+        font-size: 1.5rem;
+        margin: .75rem 0 0 0;
+      }
+    }
+    @media only screen and (max-width: 500px){
+      #ctaBtn{
+        padding: .5;
+        font-size: 1rem;
+        margin: .5rem 0 0 0;
+      }
     }
     `]
 })

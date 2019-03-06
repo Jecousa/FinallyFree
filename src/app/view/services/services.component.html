@@ -1,6 +1,7 @@
 
 <div class="container-fluid" id="servicesHeadline">
     <app-services-detail [service]="selectedService"></app-services-detail>
+    <hr>
   <div class="row justify-content-center" id="serviceNav">
       <button class="col-lg-3 btn btn-primary" *ngFor="let service of services" [class.selected]="service === selectedService"
         (click)="onSelect(service)" >{{service.name}}</button>

@@ -5,6 +5,10 @@ import { Service } from 'src/app/models/service';
   selector: 'app-services-detail',
   templateUrl: './services.component.html',
   styles: [`
+    img{
+      height: 20rem;
+      width: 17rem;
+    }
     i{
       font-size: 4rem;
     }
@@ -13,6 +17,8 @@ import { Service } from 'src/app/models/service';
     }
     #serviceDetailBody{
       margin-top: 2rem;
+      background-color:#dddddd;
+      padding: 2rem;
     }
     #serviceDetailUser{
       margin-top: 1rem;
@@ -32,7 +38,10 @@ import { Service } from 'src/app/models/service';
     .techName{
       font-weight:bold;
     }
- 
+    .serviceDescription{
+      padding: 2rem 0 0 0;
+      font-size: 1.75rem;
+    }
   `]
 })
 export class ServicesDetailComponent implements OnInit {

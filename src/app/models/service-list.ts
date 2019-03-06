@@ -4,7 +4,7 @@ export const SERVICES: Service[] = [
 
     // tslint:disable-next-line:quotemark
     { id: 1,
-      // image: "../../../assets/webImg.jpg",
+      image: "../../../assets/webImg.jpg",
      // tslint:disable-next-line:max-line-length
      name: 'Mobile-Web Services', description: 'Engage customers, viewers, and clients with mobile-web applications, on any device from websites to blogs.',
       // tslint:disable-next-line:quotemark
@@ -12,11 +12,11 @@ export const SERVICES: Service[] = [
       user1: 'Small Business Owners', user2:'Artisans, Craftsmen, and Indivduals', user3:'Organizations and Events',
       detail1:'Custom-branded websites with mobile first design', detail2:'Personalized responsive websites with integrated blog', detail3:'Interactive user inteferaces with multimedia design focus',
       tech1:'Angular', tech2:'Ionic',tech3:'WordPress',
-      techpic1:'fab fa-angular', techpic2:'fas fa-atom-alt', techpic3:'fab fa-wordpress'},
+      techpic1:'fab fa-angular', techpic2:'fas fa-mobile-alt', techpic3:'fab fa-wordpress'},
     
       // tslint:disable-next-line:quotemark
       { id: 2, 
-        //image: "../../../assets/swImg.jpeg", 
+        image: "../../../assets/swImg.jpeg", 
     name: 'Enterprise Apps', description: 'Full-stack applications, we specialize in creating adaptable productivity tools and automation scripts. ', 
     button:"apps", 
     // tslint:disable-next-line:quotemark
@@ -27,7 +27,7 @@ export const SERVICES: Service[] = [
     techpic1:'fab fa-python', techpic2:'fab fa-java', techpic3:'fab fa-android'},
     
     { id: 3, 
-      //image:"../../../assets/devopsImg.jpg", 
+      image:"../../../assets/devopsImg.jpg", 
     name: 'DevOps Automation',
      // tslint:disable-next-line:max-line-length
      description: 'Automate your software production process with cutting edge, cloud-based technologies.  Do more faster, smarter, and better.', 

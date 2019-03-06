@@ -12,14 +12,27 @@ import { Component, OnInit } from '@angular/core';
     }
     i{
       margin-left: .5rem;
-      font-size: 2.5rem;
+      font-size: 1.75rem;
       margin-top: 1rem;
     }
     nav{
-      font-size: 1.5rem;
+      font-size: 1.75rem;
       padding-top:0rem;
-      height: 5rem;
     }
+
+    @media only screen and (max-width: 525px) {
+      i{
+        margin-left: .5rem;
+        font-size: 1.25rem;
+        margin-top: 1rem;
+      }
+      nav{
+        font-size: 1.25rem;
+        padding-top:0rem;
+        height: 5rem;
+      }
+    }
+   
     `
   ]
 })

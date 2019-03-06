@@ -13,6 +13,9 @@ import { Component, OnInit } from '@angular/core';
     background-color:#cedad9;
     margin: 1rem 0rem 1rem 0rem;
   }
+  .offer{
+    padding: 2rem;
+  }
   #consult{
     margin:2rem 0rem 0rem 0rem;
     padding: 2rem;

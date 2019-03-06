@@ -9,13 +9,14 @@ import { TAGLINES } from 'src/app/models/tagline-list';
   .dropdown-item{
     color: white;
   }
-  .dropdown-menu>i{
-    margin: 0 0 0 1rem;;
+  .dropdown-item>i{
+    margin: 0 .3rem 0 0;
+    font-size:2rem;
+    padding 1rem;
   }
 `]
 })
 export class HeaderComponent  {
-
   taglines = TAGLINES;
   selectTag: Tagline;
   constructor() { }
