@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">5280Free</a>
+    <a class="navbar-brand" href="#"><img id ="mainImg" src="../../../assets/logo.jpg" alt=""></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -7,7 +7,7 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li *ngFor="let tagline of taglines" [class.selcted]="tagline == selectTag" (click)="onSelect(tagline)" class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.in"> 
-        <a  class="nav-link"  routerLink="/{{tagline.id}}" routerLinkActive="active" > {{tagline.id}}</a>
+        <a  class="nav-link"  id="mainLinks" routerLink="/{{tagline.id}}" > {{tagline.id}}</a>
       </li>
       <li class="nav-item dropdown bg-dark">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

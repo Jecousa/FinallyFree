@@ -12,9 +12,21 @@ import { Router } from '@angular/router';
     padding: 4rem 1rem 1rem;
     width: 100%;
     color:rgba(255, 238, 0, 0.986);
-    text-shadow: 2px 2px 6px rgb(223, 219, 219);
-   background-size: cover;
-}`]
+    background-size: cover;
+}
+  .heading>h1, h4{
+    margin: 2em 0 0 0;
+    color: #eeeeee;
+    text-shadow: 2px 2px 2px #999999;
+
+  }
+  #defaultTag{
+    background-image:url("../../../assets/backgrounds/DSC_0164.JPG");
+  }
+  #defaultHeader>h1,h4{
+    color: #eeeeee;
+    text-shadow: 2px 2px 2px #999999;
+  }`]
 })
 export class TaglineComponent implements OnInit{
   public currentURL: string = "";

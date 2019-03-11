@@ -3,7 +3,7 @@ import { Tagline } from './tagline';
 
 export const TAGLINES: Tagline[] = [
     {
-        id: '5280Free', mainText: 'What Does the Future Look-Like?', tag: 'Technology for Everyone', image: '.././../assets/backgrounds/20140726_084410.jpg'
+        id: 'Home', mainText: 'What Does the Future Look-Like?', tag: 'Technology for Everyone', image: '.././../assets/backgrounds/20140726_084410.jpg'
     },
     {
         id: 'About', mainText: 'Colorado-Based Technology Firm', tag: 'Unleash Potentional', image: '.././../assets/backgrounds/20160617_222247.jpg'

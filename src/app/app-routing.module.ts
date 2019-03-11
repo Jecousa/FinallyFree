@@ -8,12 +8,12 @@ import { OrderMainComponent } from './component/order/order-main/order-main.comp
 
 const routes: Routes = [
   {
-    path: '5280Free',
+    path: 'Home',
     component: HomeComponent
   },
   {
     path: '',
-    redirectTo: '/5280Free',
+    redirectTo: '/Home',
     pathMatch: 'full'
   },
   {

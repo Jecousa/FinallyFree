@@ -6,13 +6,22 @@ import { TAGLINES } from 'src/app/models/tagline-list';
   selector: 'app-header',
   templateUrl: './header.component.html',
   styles: [`
-  .dropdown-item{
+  #mainLinks{
+    color: white;
+    font-size: 1.3rem;
+  }
+  .dropdown-item>i,a{
+    margin: 0 .3rem 0 0;
+    font-size:1.3rem;
+    padding 1rem;
     color: white;
   }
-  .dropdown-item>i{
-    margin: 0 .3rem 0 0;
-    font-size:2rem;
-    padding 1rem;
+  #mainImg{
+    height: 5rem;
+    width: 5rem;
+  }
+  #navbarDropdownMenuLink{
+    color:white;
   }
 `]
 })
